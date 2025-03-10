@@ -1,0 +1,131 @@
+- real solids 
+	- real solids contain atoms which interact with each other
+	- ball and spring model
+		- where the ball is the atom and the spring is the interatomic bond
+		- and the force between atoms is spring force ($\vec{F}_s = -k_s \vec{s}$)
+- spring potential energy
+	- $U_s = \int -\vec{F}_s \cdot d\vec{s}$
+	- $U_s = \frac{1}{2}k_ss^2+C$
+- energy of mass spring system
+	- compressed spring expands
+		- PE of spring decreases
+		- KE of mass increases
+	- stretched spring contracts
+		- PE of spring decreases
+		- KE of mass increases
+- potential energy of real springs
+	- in a real spring
+		- wire of spring deforms if stretched beyond a point when $U_s \rightarrow 0$
+		- coils touch each other if compressed beyond a point when $U_s \rightarrow +\infty$ (spring pushes out with infinite strength)
+- at any instantaneous location of a moving atom, the diagram shows:
+	- total energy, E = K + U, is the energy value of horizontal line representing atom
+	- potential energy, U, is the magnitude of PE, |U|, read off by drawing vertical line through atom position to PE curve
+	- kinetic energy, K, is the difference between total energy line and PE curve
+- energy diagram interpretation: the total energy is represented by the thick horizontal line (y = -0.2 eV). what is the approximate value of the kinetic energy, K (K = ?), and the potential energy, U ($r_1$, -1.3 eV) , at location $r_1$?
+	- K = 1.1 eV, U = -1.3 eV
+- PE for a pair of neutral atoms 
+	- morse potential: $U_M(r) = E_M [1-e^{-\alpha(r - r_{eq})}]^2$
+- energy of a multiparticle system
+	- point particle approximation
+		- kinetic energy due to translation of center of mass where $K = \frac{1}{2}Mv^2$
+		- fixed rest energy due to rest mass where $E_{rest} = Mc^2$
+	- multi-particle system
+	- total constituent internal energy includes potential energy of system, rotational energy of system, vibrational energy of system, and others where $U \approx \frac{1}{2}k_{spring}s^2$
+- thermal energy
+	- temperature is a measure of average random internal K + U energy (thermal energy) of a system
+	- if atoms vibrate more vigorously 
+		- average kinetic and potential energy are higher
+		- temperature are higher
+- energy transfer due to temperature difference with surroundings
+	-  the one way a system's thermal energy can change if thermal energy increases, atoms vibrate with more energy.
+		- average interatomic distance increases
+		- volume increases: thermal expansion
+	- examples of thermal expansion
+		- thermometer: mercury expands further into tube
+		- thermostats: biz-metallic strip is heated, top metal expands faster than bottom metal, and strip bends downwards
+- specific heat
+	- the amount by which the thermal energy, $\Delta E_{Thermal}$, of a substance must increase to raise the temperature of 1 gram of it by 1$\degree$C.
+	- Q is the energy transfer due to the temp difference between the system and surroundings. it causes a change in thermal energy of the system
+	- $\Delta E_{Thermal}$ increasing the temperature of m grams of substance through temperatures $\Delta T$ then, the specific heat is $C = \frac{\Delta E_{Thermal}}{m \Delta T}$
+- predicting temperature rise: the specific heat of aluminum is about 0.90 J/g/$\degree$C. The specific heat of iron is about 0.45 J/g/$\degree$C. a certain amount of heat is provided to raise the temp of an aluminum block through 20$\degree$C. what is the approximate temperature rise of an iron block of identical mass if the same amount of heat is added to it?
+	- $40\degree C$
+- energy transfer due to temperature difference 
+	- when a hot object is placed in contact with a colder object, Q flows from the hotter object to the colder object
+	- incorporated into energy principle: $\Delta E_{sys} = Q + W_{ext}$
+- problem: a device used to determine specific heat, C, of a liquid is shown. as a block mass, m, drops a height, h, at a steady speed, it turns the blades of a fan in an insulated container causing a liquid of mass, M, in the container to have a temperature change $\Delta T$. Find C in terms of other quantities
+	- system: liquid, block, string
+	- surroundings: Earth(neglect air resistance, friction of pulley etc.)
+	- $\Delta E_{sys} = Q + W_{ext}$
+	- $Q=0$ due to insulated container
+	- $MC \Delta T = \vec{F} \cdot \Delta \vec{r}$
+	- $MC \Delta T = mgh$
+	- $C = \frac{mgh}{M\Delta T}$
+- adiabatic processes: Q =0 
+	- if no heat energy is added/removed from a system, work done by surroundings, changes internal energy of the system
+		- $\Delta E_{sys} = Q + W_{ext} \rightarrow \Delta E_{sys} = W_{ext}$
+	- temperature of system changes accordingly
+		- $\Delta T = \frac{\Delta E_{sys}}{mC} \rightarrow \Delta T = \frac{W_{ext}}{mC}$
+- example of adiabatic process
+	- system: syringe and everything in it (air and flammable material)
+	- when you push down quickly on the syringe
+		- there is no time for heat to leave and $Q = 0$
+		- $W_{ext} > 0  \rightarrow \Delta T = \frac{W_{ext}}{mC} > 0$
+	- as evidence of $\Delta T$ the flammable material catches fire (an adiabatic process)
+- power
+	- power is the rate at which work is done on a system
+		- $P = \frac{W_{surr}}{\Delta t}$
+		- $W_{surr} = \vec{F} \cdot \Delta \vec{r}$
+		- $\vec{v} = \frac{\Delta \vec{r}}{\Delta t}$
+		- $P = \vec{F} \cdot \vec{v}$
+- open and closed systems 
+	- open systems exchange energy with surroundings 
+		- $\Delta E_{sys} = E_{in} - E_{out}$
+			- if $E_{in} > E_{out}$ then $\Delta E_{sys} > 0$
+			- if $E_{in} < E_{out}$ then $\Delta E_{sys} < 0$
+			- in general $\Delta E_{sys} \neq 0$
+	- closed systems do not exchange energy with surroundings
+		- $E_{in} = E_{out} = 0 \rightarrow \Delta E_{sys} = 0$
+- problem: a perfectly insulated house has a volume of 500m$^3$ and air temperature 0$\degree$C. you bring in a closed bucket of water (10kg) of temperature almost 100$\degree$C. what will the temperature be in the house after equilibrium? 
+	- closed system: water and air
+	- $\Delta E_{sys} = 0 \rightarrow \Delta E_{water} + \Delta E_{air} = 0$
+	- $m_w c_w(T_f - T_{wi}) + m_a c_a(T_f - T_{ai}) = 0$
+	- $T_f = \frac{c_wm_wT_{wi} + c_a m_a T_{ai}}{c_w m_w + c_a m_a}$
+	- given: 
+		- $T_{wi} = 100 \degree C = 373K$
+		- $m_w = 10kg$
+		- $c_w = 4.2 J/(kg \degree C)$
+		- $T_{ai} = 0\degree C = 273K$
+		- $V_a = 500m^3$
+		- $\rho_a = 1.23 kg/m3$
+		- $m_w = \rho_aV_a = 615 kg$
+		- $c_w = 1.0J/(kg \degree C)$
+	- $T_f = 279.4K$
+- system and energy accounting: a woman lifts a barbell, mass m, starting from rest through height h by applying a constant upward vertical force F, such that the final speed of the barbell  is v. 
+	- system: barbell and earth
+	- surroundings: woman 
+	- $\Delta E_{sys} = Q + W_{surr}$
+	- $\Delta E_{barbell} + \Delta E_{earth} = W_{woman}$
+	- $(\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2) + mg\Delta y = Fh$
+	- $\frac{1}{2}mv_f^2 - 0  + mgh - 0 = Fh$
+
+	- system: barbell
+	- surroundings: earth and woman
+	- $\Delta E_{sys} = Q + W_{surr}$
+	- $\Delta E_{barbell} = W_{woman} + W_{earth}$
+	- $\frac{1}{2}mv_f^2 - 0 = Fh + \vec{F} \cdot \Delta \vec{r}$
+	- $\frac{1}{2}mv_f^2 = Fh + \langle 0, -mg, 0 \rangle \cdot \langle 0, h, 0\rangle$
+	- $\frac{1}{2}mv_f^2 = Fh + -mgh$
+
+- summary
+	- from the energy diagram of a pair of neutral atoms one can determine the total energy, potential energy, and kinetic energy of the moving atom
+	- energy of a multi-particle system: kinetic energy, rest mass energy, and internal energy
+	- energy principle: $\Delta E_{sys} = Q + W_{ext}$
+	- Sign of heat energy:
+		- Q > 0 Energy flows from the surroundings to the system
+		- Q < 0 Energy flows from the system to the surroundings 
+		- Q = 0 Adiabatic process where no energy flows between system and surroundings
+	- change in temperature of a system: $\Delta T = \frac{\Delta E_{sys}}{mC}$
+		- c is the specific heat capacity of the system
+	- energy principle revisited: $\Delta K  + \Delta U + \Delta E_{internal} = Q + W_{ext}$
+		- where $E_{internal} = E_{rotation} + E_{vibration} + E_{thermal} + Others$
+		- 

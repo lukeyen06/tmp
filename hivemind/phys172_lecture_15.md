@@ -1,0 +1,76 @@
+- energy dissipation
+	- total energy of the universe is conserved
+		- but energy can be dissipated to less useful forms
+	- examples
+		- sliding friction
+		- air resistance
+	- in case of dissipation, energy of motion
+		- is transferred to microscopic energy of molecules in contact with moving object
+		- causes an increase in temperature of the objects in contact with each other
+- air resistance
+	- negligible for small dense object and falling a short distance
+	- momentum principle
+		- system: coin
+		- surroundings: earth and air
+		- $\frac{d\vec{p}_{sys}}{dt} = \vec{F}_{ext}$
+		- $\frac{d\vec{p}_{coin}}{dt} = \vec{F}_g + \vec{F}_{air}$
+		- $\vec{F}_{air} = 0$
+		- $m \frac{d}{dt} \vec{v}_{coin} \approx \langle 0, -mg, 0 \rangle$
+		- $\frac{d}{dt}\vec{v}_{coin} \approx -g \hat{y}$
+	- energy principle
+		- system: coin and earth
+		- surroundings: air
+		- $\Delta E_{sys} = W_{surr}$
+		- $\Delta K_{coin} + \Delta K_E + \Delta U_{int} = \vec{F}_{air} \cdot \Delta \vec{r}$
+		- $\Delta K_E = 0$
+		- $\vec{F}_{air} = 0$
+		- $(\frac{1}{2}mv_{coin}^2 - 0) + (0 - mgh) \approx 0$
+		- $v_{coin} \approx \sqrt{2gh}$
+	- not negligible for large light objects and falling a long distance
+	- momentum principle
+		- system: filter
+		- surroundings: earth and air
+		- $\frac{d\vec{p}_{sys}}{dt} = \vec{F}_{ext}$
+		- $$\frac{d\vec{p}_{filter}}{dt} = \vec{F}_g + \vec{F}_{air}$$
+		- $\vec{F}_{air} = 0$
+		- $$\frac{d}{dt} \langle 0, m v_{filter}, 0 \rangle \approx \langle 0, f-mg, 0 \rangle$$
+		- $$\frac{d}{dt} \vec{v}_{filter} \approx - (g - \frac{f}{m}) \hat{y}$$
+	- energy principle
+		- system: filer and earth
+		- surroundings: air
+		- $\Delta E_{sys} = W_{surr}$
+		- $\Delta K_{filter} + \Delta K_E + \Delta U_{int} = W_{air}$
+		- $\vec{F}_{air} = 0$
+		- $(\frac{1}{2}mv_{filter}^2 - 0) + (0 - mgh) \approx C$
+		- $v_{filter} \approx \sqrt{2gh + \frac{2W_{air}}{m}}$
+		- $W_{air}$ is negative
+	- previously $\vec{F}_{air} = f \hat y$
+		- but air drag is not constant
+		- $\vec{F}_{air} \approx \frac{1}{2} C \rho A v^2(-\hat v)$
+		- drag coefficient: $0.3 \ge C \ge 1.0$
+	- air resistance (drag) increases as square of velocity
+	- so when velocity reaches a particular value
+		- air drag = force due to gravity
+		- $|\vec{F}_{air}| = |\vec{F}_g|$
+		- $\vec{F}_{net} = 0$
+		- velocity does not change: terminal velocity
+- terminal velocity 
+	- $|\vec{F}_{air}| = |\vec{F}_g|$
+	- $\frac{1}{2} C \rho A v^2 = mg$
+	- $v_t = \sqrt{\frac{2mg}{C \rho A}}$
+- viscous friction
+	- proportional to velocity
+	- mass-spring system
+		- force due to spring
+		- force due to viscous friction
+		- damped oscillations
+		- exponentially decreasing amplitude
+	- momentum principle
+		- $\frac{d\vec{p}}{dt} = \vec{F}_{spring} +\vec{F}_{viscous \: friction}$
+- resonance
+	- $x(t) = Ae^{-(\frac{c}{2m})t}cos(\omega_F t)$
+	- $\omega_F = \sqrt{\frac{k_s}{m} - (\frac{c}{2m})^2}$
+	- resonance occurs when the frequency of the driver, $\omega_D$, equals the free oscillation frequency, $\omega_F$: $\omega_D = \omega_F$
+	- when this happens, the amplitude, A of the oscillation increases dramatically
+- resonance in nature
+	- different bonds of $CO_2$ have different resonant frequencies
