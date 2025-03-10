@@ -31,12 +31,12 @@
 		- system: filter
 		- surroundings: earth and air
 		- $\frac{d\vec{p}_{sys}}{dt} = \vec{F}_{ext}$
-		- $$\frac{d\vec{p}_{filter}}{dt} = \vec{F}_g + \vec{F}_{air}$$
+		- $\frac{d\vec{p}_{filter}}{dt} = \vec{F}_g + \vec{F}_{air}$
 		- $\vec{F}_{air} = 0$
-		- $$\frac{d}{dt} \langle 0, m v_{filter}, 0 \rangle \approx \langle 0, f-mg, 0 \rangle$$
-		- $$\frac{d}{dt} \vec{v}_{filter} \approx - (g - \frac{f}{m}) \hat{y}$$
+		- $\frac{d}{dt} \langle 0, m v_{filter}, 0 \rangle \approx \langle 0, f-mg, 0 \rangle$
+		- $\frac{d}{dt} \vec{v}_{filter} \approx - (g - \frac{f}{m}) \hat{y}$
 	- energy principle
-		- system: filer and earth
+		- system: filter and earth
 		- surroundings: air
 		- $\Delta E_{sys} = W_{surr}$
 		- $\Delta K_{filter} + \Delta K_E + \Delta U_{int} = W_{air}$
@@ -74,3 +74,21 @@
 	- when this happens, the amplitude, A of the oscillation increases dramatically
 - resonance in nature
 	- different bonds of $CO_2$ have different resonant frequencies
+- problem: a 1.0g coffee filter dropped from a height of 0.5m reaches a terminal speed of 1 m/s. how much KE approximately did the air molecules gain from the falling coffee filter? acceleration due to gravity is 10 m/s$^2$
+	- system: filter and earth
+	- air
+	- $\Delta K + \Delta U = W_{surr}$
+	- $(\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2) + (0 - mgh) = W_{surr}$
+	- $W_{surr} = \Delta K_{air}$
+	- $\Delta K_{air}$ = 0.5 x 10$^{-3}$ - 5 x 10$^{-3}$ = -4.5 x 10$^{-3}$ J
+- problem: a sky diver, mass 90 kg, reaches a terminal velocity of 60 m/s. what is the approximate magnitude of the force of the air resistance?
+	- terminal velocity means $|\vec{F}_{air}| = |\vec{F}_g|$
+	- $|\vec{F}_{air}| = mg = 90 kg * 10 m / s^2 = 900N$
+- problem: when you drop a single coffee filter it reaches terminal speed, $v_T$, when magnitude of the drag force on it is $F_d$. If you were to now drop 4 identical filters (fitting snugly one inside the other), what would the new terminal speed and air drag force at this speed respectively be?
+	- $2v_T, 4F_d$
+	- $v_t = \sqrt{\frac{2mg}{C\rho A}}$
+- problem: in the equation of position vs. time for a damped oscillator, what is the units of coefficient of viscous friction, c? 
+	- $\frac{kg}{s}$
+
+
+	
