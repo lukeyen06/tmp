@@ -1,0 +1,47 @@
+- electric potential energy
+	- due to electric attraction and repulsion
+	- $U_{elec} = \frac{1}{4\pi \epsilon_0} \frac{q_1q_2}{r}$
+	- coulombs constant:  $\frac{1}{4\pi \epsilon_0} = 9 * 10^9 N*m^2/C^2$
+	- depends on charges $q_1$ and $q_2$ and distance between charges r
+	- negative EPE means that the charges are attractive and $q_1$ and $q_2$ are unlike charges
+	- positive EPE means that the charges are repulsive and $q_1$ and $q_2$ are like charges
+- energy diagram: neutral atom pair
+	- at any instantaneous location of a moving atom, the diagram shows:
+		- total energy, E = K + U, is the energy value of horizontal line representing atom
+		- potential energy, U, is the magnitude of PE, |U|, read off by drawing vertical line through atom position to PE curve
+		- kinetic energy, K, is the difference between total energy line and PE curve
+- specific heat
+	- the amount by which the thermal energy, $\Delta E_{Thermal}$, of a substance must increase to raise the temperature of 1 gram of it by 1$\degree$C.
+	- Q is the energy transfer due to the temp difference between the system and surroundings. it causes a change in thermal energy of the system
+	- $\Delta E_{Thermal}$ increasing the temperature of m grams of substance through temperatures $\Delta T$ then, the specific heat is $C = \frac{\Delta E_{Thermal}}{m \Delta T}$
+- adiabatic processes: Q =0 
+	- if no heat energy is added/removed from a system, work done by surroundings, changes internal energy of the system
+		- $\Delta E_{sys} = Q + W_{ext} \rightarrow \Delta E_{sys} = W_{ext}$
+	- temperature of system changes accordingly
+		- $\Delta T = \frac{\Delta E_{sys}}{mC} \rightarrow \Delta T = \frac{W_{ext}}{mC}$
+- problem: a ball of mass 0.25 kg is thrown straight up and rises 2m until it stops and starts to fall down. what is the change of the balls energy as it rises to the top? use approximate acceleration due to gravity g = 10m/s^2 and ignore air resistance
+	- system: ball
+	- surrounding: earth and air
+	- $E_{sys,f} = E_{sys, i} + W_{surr}$
+	- $mc^2 + K_f = mc^2 + K_i +|\vec{F}||\vec{d}| cos180$
+	- $K_f = K_i + (mg)(d)(-1)$
+	- $\Delta K = K_f - K_i = (0.25kg)(10 \frac{m}{s^2})(2m)(-1) = -5.0J$ 
+
+- homework 11 problem 10: you throw a ball of mass 175g upward. when the ball is 2m above the ground, headed upward(initial state), its speed is 12m/s. later, when the ball is again 2m above the ground, this time headed downward (the final state)its speed is 12 m/s. what is the change in the kinetic energy of the ball from initial to final state?
+- energy diagram interpretation: the total energy is represented by the thick horizontal line (y = -0.2 eV). what is the approximate value of the kinetic energy, K (K = ?), and the potential energy, U ($r_1$, -1.3 eV) , at location $r_1$?
+	- K = 1.1 eV, U = -1.3 eV
+- predicting temperature rise: the specific heat of aluminum is about 0.90 J/g/$\degree$C. The specific heat of iron is about 0.45 J/g/$\degree$C. a certain amount of heat is provided to raise the temp of an aluminum block through 20$\degree$C. what is the approximate temperature rise of an iron block of identical mass if the same amount of heat is added to it?
+	- $40\degree C$
+- problem: 400g of boiling water (temperature is almost 100$\degree$C, specific heat 4.2 J/K/g) are poured into an aluminum pan whose mass is 600g and initial temperature 20$\degree$C (the specific heat of aluminum is 0.9J/K/g). after a short time, what is the temperature of the water? what assumptions are made? 
+	- $m_wc_w(T_f - T_{iw}) = - m_ac_a(T_f - T_{ia})$
+-  problem: a device used to determine specific heat, C, of a liquid is shown. as a block mass, m, drops a height, h, at a steady speed, it turns the blades of a fan in an insulated container causing a liquid of mass, M, in the container to have a temperature change $\Delta T$. Find C in terms of other quantities
+	- system: liquid, block, string
+	- surroundings: Earth(neglect air resistance, friction of pulley etc.)
+	- $\Delta E_{sys} = Q + W_{ext}$
+	- $Q=0$ due to insulated container
+	- $MC \Delta T = \vec{F} \cdot \Delta \vec{r}$
+	- $MC \Delta T = mgh$
+	- $C = \frac{mgh}{M\Delta T}$
+- homework 13.5: four protons (each with mass 1.7x10^-27 kg and charge 1.6x10^-19C) are initially held at the corners of a square that is 3.1 x 10^-9 m on a side. they are then released from rest. what is the speed of each proton when the protons are very far apart? (you may assume that the final speed of each proton is small compared to the speed of light)
+- recitation 8: three protons, each of mass and charge +e, are initially held at the corners of an equilateral triangle that is d on a side. they are then released from the rest. what is the magnitude of the velocity of each proton when the protons are very far apart?
+- ![[Pasted image 20250310192804.png]]
