@@ -1,0 +1,28 @@
+- multiparticle kinetic energy
+	- three modes of movement
+		- translation of center of mass (CM)
+		- rotation about axis passing through CM
+		- vibration around CM
+	- total kinetic energy: $K_{Tot} = K_{trans} + K_{rot} + K_{vib}$
+	- KE due to motion relative to center of mass (CM): $K_{rel} = K_{rot} + K_{vib}$
+- translational energy
+	- $K_{trans} = \frac{1}{2}M_{total}|\vec{v}_{CM}|^2$
+	- $K_{trans} \approx \frac{|\vec{p}_{sys}|^2}{2M_{total}}$
+	- $M_{total} = m_1 + m_2 + \cdots = \sum_{i=0}^{N}m_i$
+	- $\vec{v}_{CM} \approx \frac{\vec{p}_{sys}}{M_{total}}$
+	- $\vec{v}_{CM} = \frac{d}{dt} \vec{r}_{CM} = \frac{m_1\vec{v}_1 + m_2\vec{v}_{2} + \cdots}{m_1 + m_2 + \cdots} =\frac{\sum_{i=0}^{N}m_i\vec{v}_i}{M_{total}}$
+	- $\vec{r}_{CM} = \frac{m_1\vec{r}_1 + m_2\vec{r}_2 + \cdots}{m_1 + m_2 + \cdots} =\frac{\sum_{i=0}^{N}m_i\vec{r}_i}{M_{total}}$
+- vibrational and rotational energy: diatomic molecule
+	- vibrational energy
+		- $E_{vib} = K_{vib} + U_{sp}$
+		- $K_{vib} = 2\frac{|\vec{p}_{radial}|^2}{2m}$
+		- $U_{sp} = \frac{1}{2}k_ss^2$
+	- rotational energy
+		- $E_{rot} = K_{rot} + U_{rot}$
+		- $U_{rot} = 0$ , there is no potential energy associated with rotation
+		- $K_{rot} = 2 \frac{|\vec{p}_{tangential}|^2}{2m}$
+- ![[Pasted image 20250311100946.png]]
+- relative kinetic energy
+		- $K_{rel} = \sum_{i =1}^{N} \frac{p_i^2}{2m_i}$
+		- $K_{rel} = \sum_{i = 1}^{N} \frac{p_{tan\,i}^2}{2 m_i} + \sum_{i = 1}^{N} \frac{p_{rad\,i}^2}{2 m_i}$
+		- 
