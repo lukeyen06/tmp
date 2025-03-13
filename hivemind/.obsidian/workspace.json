@@ -4,59 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "e30a99ecc12fbd00",
+        "id": "4e59da6f7995dd1d",
         "type": "tabs",
         "children": [
           {
-            "id": "1d98083d926fb697",
+            "id": "a82a249f4c8736cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "phys172_lecture_14.md",
-                "mode": "source",
-                "source": false
+                "file": "ma166_studyguide_exam2.pdf"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "6ea40c9f75881b67",
+        "type": "tabs",
+        "children": [
           {
-            "id": "c5e0c1dbe1fc9c99",
+            "id": "675fb76b6816e4b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "phys172_lecture_tmp.md",
+                "file": "ma166_studyguide_exam2.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c927db1bef7dc5fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "phys172_lecture_15.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "218386c0de65a744",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "phys172_problemquiz_06.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,13 +81,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fcbf69eb42ad4082",
@@ -124,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "phys172_lecture_tmp.md",
+                "file": "ma166_studyguide_exam2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "phys172_lecture_tmp.md",
+                "file": "ma166_studyguide_exam2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "phys172_lecture_tmp.md"
+                "file": "ma166_studyguide_exam2.md"
               }
             }
           }
@@ -185,10 +162,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5e0c1dbe1fc9c99",
+  "active": "675fb76b6816e4b3",
   "lastOpenFiles": [
+    "ma166_studyguide_exam2.pdf",
+    "ma166_studyguide_exam2.md",
     "resource_thepoweroften.pdf",
+    "Untitled 2.md",
     "phys172_lecture_14.md",
+    "phys172_hw_15.md",
+    "Pasted image 20250312121523.png",
+    "Pasted image 20250312121520.png",
+    "Untitled 1.md",
     "phys172_lecture_tmp.md",
     "phys172_lecture_14.pdf",
     "phys172_lecture_15.md",
