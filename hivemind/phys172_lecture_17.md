@@ -1,0 +1,109 @@
+- two models of a system
+	- point particle
+		- all mass is concentrated at CM
+		- all force act at CM where net force is found by vector addition of individual forces
+	- extended 
+		- mass distributed throughout, around CM
+		- different forces act on different points
+- applying energy principle
+	- point particle
+		- $\Delta E_{sys} = W_{surr}$
+		- $\Delta K_{trans} + \Delta K_{rel} + \Delta E_{int} = \vec{F}_{net} \, \cdot \, \Delta \vec{r}_{CM}$
+		- $\Delta (\frac{1}{2} M v_{CM}^{2}) + 0 + 0 = \vec{F}_{net} \, \cdot \, \Delta \vec{r}_{CM}$
+		- because this is a point particle: $\Delta K_{rel} = 0$ and $\Delta E_{int} = 0$
+	- extended
+		- $\Delta E_{sys} = W_{surr}$
+		- $\Delta K_{trans} + \Delta K_{rel} + \Delta E_{int} = \sum_{i = 1}^{N} \vec{F}_{i} \, \cdot \, \Delta \vec{r}_{i}$
+		- $\Delta K_{trans} = \Delta (\frac{1}{2} M v_{CM}^{2})$
+		- $\Delta K_{rel} = \Delta \frac{1}{2}(\sum_{i = 1}^N m_i r_{\perp i}^2)\omega^2$
+- point particle vs extended
+	- assume entire mass is concentrated at CM and all forces act at CM
+	- find net force: $\vec{F}_{net} = \sum_{i = 0}^{N} \vec{F}_{i}$
+	- find displacement of CM: $\Delta \vec{r}_{CM}$
+	- calculate work by net force: $W_{net} = \vec{F}_{net} \, \cdot \, \Delta \vec{r}_{CM}$
+	- calculate change in system's translational KE: $\Delta K_{trans} = W_{net} = \vec{F}_{net} \, \cdot \, \Delta \vec{r}_{CM}$
+	- given each force, $\vec{F}_{i}$ , and its point of application
+	- find displacement $\Delta \vec{r}_{i}$ through which each force acts
+	- find work done by each force: $W_{i} = \vec{F}_{i} \, \cdot \, \Delta \vec{r}_{i}$
+	- find total work done by all F's: $W_{tot} = \sum_{i = 0}^{N} W_{i} =  \sum_{i = 0}^{N} \vec{F}_{i} \, \cdot \, \Delta \vec{r}_{i}$
+	- set up: $\Delta K_{trans} + \Delta E_{int} = W_{tot}$
+	- $\Delta E_{int} = \sum_{i = 1}^{N} \vec{F}_{i} \, \cdot \, \Delta \vec{r}_{i} - \vec{F}_{net} \, \cdot \, \Delta \vec{r}_{CM}$
+- example: jumping off the floor
+	- point particle
+		- $\Delta (\frac{1}{2} M v_{CM}^{2}) + 0 + 0 = \vec{F}_{net} \, \cdot \, \Delta \vec{r}_{CM}$
+		- $\Delta (\frac{1}{2} M v_{CM}^{2}) + 0 + 0 = (F_N - mg)h$
+	- extended
+		-  $\Delta (\frac{1}{2} M v_{CM}^{2}) + \Delta K_{rel} + \Delta E_{int} = \sum_{i = 1}^{N} \vec{F}_{i} \, \cdot \, \Delta \vec{r}_{i}$
+		-  $\Delta (\frac{1}{2} M v_{CM}^{2}) + \Delta K_{rel} + \Delta E_{int} = F_N \cdot 0 + (-mg)(h)$
+		- $\Delta K_{rel}$ is the change in KE due to torso moving relative to CM
+		- $\Delta E_{int}$ is the change in thermal and chemical energies
+	- $\Delta K_{rel} + \Delta E_{int} = -F_{N}h$
+	- combining both models(point particle and extended) can be used to find sum total of changes in KE due to relative motion, thermal energy, and chemical energy
+- example: stretching a spring where you pull at both ends, and hold it stretched
+	- point particle
+		- $\Delta (\frac{1}{2} M v_{CM}^{2})= \vec{F}_{net} \, \cdot \, \Delta \vec{r}_{CM}$
+		- CM does not move so $\Delta \vec{r}_{CM} = 0$ 
+		- $\vec{F}_{net} = F_{right} + F_{left} = 0$
+		- $\Delta (\frac{1}{2} M v_{CM}^{2})= 0$
+	- extended
+		- $\Delta (\frac{1}{2} M v_{CM}^{2}) + \Delta K_{rel} + \Delta E_{int} = \sum_{i = 1}^{N} \vec{F}_{i} \, \cdot \, \Delta \vec{r}_{i}$
+		- because stretch spring ends are held at rest, $\Delta K_{rel} = 0$
+		- $\Delta E_{int} = \Delta U_{spring}$
+		- $0 + 0 + \Delta U_{spring} = \vec{F}_{left} \, \cdot \, \Delta \vec{r}_{left} + \vec{F}_{right} \, \cdot \, \Delta \vec{r}_{right}$
+		- $\Delta (\frac{1}{2}k_ss^2) = {F}_{left} \, \Delta {r}_{left} + {F}_{right} \, \Delta {r}_{right}$
+- example: box containing a spring
+	- a thin massless box in deep space contains a lump of clay of mass M, that is connected to an initially unstretched spring of stiffness $k_s$.
+	- a constant force $F$ is applied to the box toward the right. when the box has moved a distance $b$ to the right, the spring stretches a distance $s$ and clay makes contact with the left face of the block. 
+	- what is the speed of the box at that instant?
+	- what is the change in internal energy of the clay?
+	- point particle
+		- $\Delta (\frac{1}{2} M v_{CM}^{2})= \vec{F}_{net} \, \cdot \, \Delta \vec{r}_{CM}$
+		- $\frac{1}{2} M v_{CM}^{2} - 0 = F(b - s)$
+		- $v_{CM} = \sqrt{\frac{2F(b - s)}{M}}$
+	- extended
+		- $\Delta (\frac{1}{2} M v_{CM}^{2}) + \Delta K_{rel} + \Delta E_{int} = \sum_{i = 1}^{N} \vec{F}_{i} \, \cdot \, \Delta \vec{r}_{i}$
+		- because clay is at CM, no speed is relative to CM so $\Delta K_{rel \, clay} = 0$
+		- $F(b - s) + 0 + \Delta E_{int \, spring} + \Delta E_{int \, clay} = Fb$
+		- $F(b - s) + \frac{1}{2}k_ss^2 + \Delta E_{int \, clay} = Fb$
+		- $\Delta E_{int \, clay} = Fs - \frac{1}{2}k_ss^2$
+- rolling without slipping: bicycle wheel
+	- speed of CM: $v_{CM}$
+	- speed of rim relative to axle: $v_{rel} = \omega R$
+	- speed of rim at top: $v_{top} = v_{CM} + v_{rel}$
+	- speed of rim at bottom: $v_{bottom} = v_{CM} - v_{rel}$
+	- rolling without slipping is where the point of contact with ground does not move: $v_{bottom} = 0$
+	- $v_{CM} = v_{rel} = \omega R$
+	- ![[Pasted image 20250314175041.png]]
+- rolling vs sliding: point particle explanation
+	- energy principle to point particle system 1
+		- $\Delta K_{trans \, 1} = \vec{F}_{net \, 1} \cdot \Delta \vec{r}_{CM}$
+		- friction: $\vec{F}_{net \, 1} = \vec{F} - \vec{F}_f$
+		- $\Delta K_{trans \, 1} < \vec{F} \cdot \Delta \vec{r}_{CM}$
+	- energy principle to point particle system 2
+		- $\Delta K_{trans \, 2} = \vec{F}_{net \, 2} \cdot \Delta \vec{r}_{CM}$
+		- no friction: $\vec{F}_{net \, 2} = \vec{F}$
+		- $\Delta K_{trans \, 2} = \vec{F} \cdot \Delta \vec{r}_{CM}$
+	- $\Delta K_{tran1} < \Delta K_{tran2}$
+	- $v_1 < v_2$
+- rolling vs sliding: extended system explanation
+	- energy principle to extended system 1
+		- $\Delta K_{trans \, 1} + \Delta K_{rot \, 1} = \vec{F} \cdot \Delta \vec{r}_F + \vec{f} \cdot \Delta \vec{r}_f$
+		- because point of contact with ground momentarily at rest so $\Delta \vec{r}_f = 0$
+		- $\Delta K_{trans \, 1} < \vec{F} \cdot \Delta \vec{r}_F$
+	- energy principle to extended system 2
+		- $\Delta K _{trans \, 2} + \Delta K_{rot \, 2} = \vec{F} \cdot \Delta \vec{r}_F + \vec{F}_f \cdot \Delta \vec{r}_f$
+		- there is no rotation so $\Delta K_{rot \, 2} = 0$
+		- frictionless so $\vec{F}_f = 0$
+		- $\Delta K_{trans \, 2} = \vec{F} \cdot \Delta \vec{r}_F$
+	- $\Delta K_{tran1} < \Delta K_{tran2}$
+	- $v_1 < v_2
+- problem: a skater pushes straight to the left with force F against the wall so that her center of mass moves a distance $d$ to the right. what is the energy principle
+- summary
+	- point particle energy principle: $\Delta K_{trans} = W_{net} = \vec{F}_{net} \cdot \Delta \vec{r}_{CM}$
+		- use this to find the change in translational KE
+	- extended system energy principle: $\Delta K_{trans} + \Delta E_{int} = W_{tot}$
+		- where: $W_{tot} = \sum_{i = 1}^{N} W_i = \sum_{i = 1}^{N} \vec{F}_i \cdot \Delta \vec{r}_i$
+	- rolling without slipping: $v_{CM} = v_{rel} = \omega R$
+		- at the top of the wheel: $v_{top} = v_{CM} + v_{rel} = 2v_{CM}$
+		- at the bottom of the wheel: $v_{bottom} = v_{CM} - v_{rel} = 0$
+		- 
