@@ -150,12 +150,26 @@
 			- = $\frac{\pi}{2}$
 		2. $\int_{e^5}^{\infty} \frac{1}{x(ln(x))^2} \, dx$
 		3. $\int_{0}^{2} \frac{1}{(x-1)^2} \, dx$
-			- $\lim_{a \rightarrow 0} \int_{a}^{2} \frac{1}{(x-1)^2} \, dx$
-			- $\lim_{a \rightarrow 0} [-\frac{1}{(x-1)} \, ]|_{a}^{2}$
-			- $\lim_{a \rightarrow 0} [- 1 + \frac{1}{(a-1)} \, ]|_{a}^{2}$
-			- 
+			- $\lim_{a \rightarrow 1^{-}} \int_{0}^{a} \frac{1}{(x-1)^2} \, dx + \lim_{a \rightarrow 1^{+}} \int_{a}^{2} \frac{1}{(x-1)^2} \, dx$
+			- $\lim_{a \rightarrow 1^{-}} [-\frac{1}{(x-1)} ]\, |_{0}^{a} + \lim_{a \rightarrow 1^{+}} [-\frac{1}{(x-1)} ]\, |_{a}^{2}$
+			- $\lim_{a \rightarrow 1^{-}} [-\frac{1}{(a-1)} - 1 ] + \lim_{a \rightarrow 1^{+}} [-1 +\frac{1}{(a-1)} ]$
+			- $\lim_{a \rightarrow 1^{-}} [\infty - 1 ] + \lim_{a \rightarrow 1^{+}} [-1 + \infty ]$
+			- diverges
 		4. $\int_{0}^{\infty} \frac{e^{2x}}{e^{2x} + 1} \, dx$
+			- = $\lim_{a \rightarrow \infty} \int_{0}^{a} \frac{e^{2x}}{e^{2x} + 1} \, dx$
+			- $u = e^{2x}$    $du = 2e^{2x} \, dx$
+			- = $\frac{1}{2} \lim_{a \rightarrow \infty} \int_0^{a} \frac{1}{u+1} \, dx$
+			- = $\frac{1}{2} \lim_{a \rightarrow \infty}  \ln|{u+1}| \, |_0^{a}$
+			- = $\frac{1}{2} \lim_{a \rightarrow \infty}  \ln|{e^{2a}+1}| - \ln|{2}|$
+			- = $\frac{1}{2} [\infty - ln|2|]$
+			- diverges
 		5. $\int_{0}^{9} \frac{1}{x-1} \, dx$
+			-  $\int_{0}^{1} \frac{1}{x-1} \, dx + \int_{1}^{9} \frac{1}{x-1} \, dx$
+			- $lim_{a \rightarrow 1^-} \int_{0}^{a} \frac{1}{x-1} \, dx + lim_{a \rightarrow 1^+} \int_{a}^{9} \frac{1}{x-1} \, dx$
+			- $lim_{a \rightarrow 1} [\ln|{x-1}| ]_{0}^{a} \, dx + lim_{a \rightarrow 1} [\ln|{x-1}| ]_{a}^{9}\, dx$
+			-  $lim_{a \rightarrow 1} [\ln|{a-1}| - \ln|1| ] + lim_{a \rightarrow 1} [\ln|{8}| - \ln|{a - 1}]$
+			- $[-\infty - 0 ] + [\ln|{8}| - - \infty]$
+			- diverges
 		6. $\int_{0}^{9} \frac{1}{\sqrt[3]{x - 1}} \, dx$
 		7. $\int_{-\infty}^{\infty} x \, dx$
 		8. $\int_{0}^{\infty} x e^{-x} \, dx$
