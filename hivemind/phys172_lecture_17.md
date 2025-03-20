@@ -96,7 +96,7 @@
 		- frictionless so $\vec{F}_f = 0$
 		- $\Delta K_{trans \, 2} = \vec{F} \cdot \Delta \vec{r}_F$
 	- $\Delta K_{tran1} < \Delta K_{tran2}$
-	- $v_1 < v_2
+	- $v_1 < v_2$
 - problem: a skater pushes straight to the left with force F against the wall so that her center of mass moves a distance $d$ to the right. what is the energy principle
 - summary
 	- point particle energy principle: $\Delta K_{trans} = W_{net} = \vec{F}_{net} \cdot \Delta \vec{r}_{CM}$

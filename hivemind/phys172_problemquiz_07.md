@@ -35,4 +35,19 @@
 	- $I_{axis}$ is the moment of inertia through axis of rotation
 	- $I_{CM}$ is the moment of inertia of object about axis through CM
 	- $r_{CM}$ is the shortest distance of CM from axis of rotation
-- homework 14.1 
+- homework 14.1: a horizontal spring-mass system has low friction, spring stiffness 186 N/m, and mass 0.6 kg. the system is released with an initial compression of the spring of 10 cm and an initial speed of the mass of 3 m/s.
+	- $E_{initial} = K + U = \frac{1}{2}kx^2 + \frac{1}{2}mv^2$
+	- $E_{intial} = \frac{1}{2}(186 \, N/M)(0.1m)^2 + \frac{1}{2}(0.6 kg)(3 m/s)^2 = 0.93J + 2.7J = 3.63J$
+	- $E_{max} = K + U$, where $U = 0$
+	- $E_{intial} = E_{max} = \frac{1}{2}mv^2$
+	- $3.63J = \frac{1}{2}(0.6kg)v^2$
+	- $v = 3.4785 m/s$
+- a mass of 0.3 kg hangs motionless from a vertical spring whose length is 0.97 m and whose unstretched length is 0.64 m. next the mass is pulled down to where the spring has a length of 1.08 m and given an initial speed upwards of 1.3 m/s. what is the maximum length of the spring during the motion that follows?
+	- $\Delta L = L - L_0 = 0.97 m - 0.64 m = 0.33 m$
+	- $k \Delta L = mg$
+	- $k(0.33m) = (0.3kg)(9.8m/s^2)$
+	- $k = 8.9090 N/M$
+
+	- $\Delta x = 1.08 m - 0.97 m = 0.11 m$
+	- $U_{spring} = \frac{1}{2}k (\Delta x)^2 = \frac{1}{2}(0.11m)$
+	- 
